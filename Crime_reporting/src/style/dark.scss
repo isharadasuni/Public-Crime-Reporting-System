@@ -1,0 +1,90 @@
+.app{
+
+    background-color:#222;
+    color: white;
+
+
+    .listContainer, .newContainer,  .homeContainer{
+        background-color:#222;
+
+    }
+
+    
+
+    .datatable{
+        .datagrid{
+        color: white;
+        }
+    }
+   
+
+    .featured{
+        .featuredChart{
+            stroke: white;
+        }
+
+        .amount{
+            color: white;
+        }
+        
+    
+    }
+    .widget {
+        color:white;
+        .counter{
+            color:white;
+        }
+
+    }
+    
+    .chart{
+        stroke: white;
+       
+    }
+
+    .table{
+        background-color: #111;
+        
+        .tablecell{
+            color: white;
+        }
+    }
+
+    .navbar{
+        color:rgba(255, 255, 255, 0.877);
+        border-color:#333 ;
+        
+        .search{
+            border-color: rgba(255, 255, 255, 0.877);
+            
+        }
+    }
+
+    .sidebar{
+        background-color: #222;
+        border-color: #333;
+
+        hr{
+            border-color:#333;
+        }
+
+        .logo{
+            color: white;
+        }
+
+        ul{
+            li{
+                &:hover{
+                    background-color: rgb(158, 158, 158);
+                }
+
+                .icon, span{
+                    color: rgba(255, 255, 255, 0.575);
+                }
+            }
+        }
+        
+        
+        
+    }
+}

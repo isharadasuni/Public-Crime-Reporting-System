@@ -1,0 +1,135 @@
+.navbar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(6, 19, 117);
+
+    .wrapper {
+        width: 100%;
+        padding: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 400px;
+        margin-top: 20px;
+       
+        
+       
+        .logo {
+         
+            font-size: 30px;
+            color: rgb(6, 19, 117);
+          
+         
+
+        }
+
+        
+
+        
+
+        .items {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .item {
+                display: flex;
+                align-items: center;
+                margin: 15px;
+               
+                
+                
+                .icon {
+                    font-size: 20px;
+                    cursor: pointer;
+                
+                    .message{
+                        color:red;
+                    }
+                }
+
+                
+
+
+             
+
+                .counter {
+                    width: 15px;
+                    height: 15px;
+                    background-color: rgb(247, 8, 8);
+                    border-radius: 50%;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: bold;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+
+
+                }
+
+                
+            }
+
+            
+             .dropdown {
+                position: absolute;
+
+                .icon {
+                    cursor: pointer;
+                   
+                    
+                }
+
+                .notification{
+                    color:white;
+                    width: 300px;
+                }
+                
+               
+                .dropdown-content{
+                    position: absolute;
+                    top: 100%;
+                    transform: translateX(-90%) rotate(0deg);
+                    display: none;
+                    background-color: rgb(6, 19, 117);
+                    border: 1px solid rgba(255, 255, 255, 0.986);
+                    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                    z-index: 1;
+                    min-width: 150px;
+
+
+                    &.show {
+                        display: block;
+                       
+                    }
+
+                    a {
+                        display: block;
+                        padding: 10px;
+                        text-decoration: none;
+                        color:white;
+
+                        &:hover {
+                            background-color: lightgray;
+                            
+                        }
+                    }
+                }
+
+                &:hover .dropdown-content {
+                    display: block;
+                   
+                    
+                }
+
+               
+            } 
+              
+        }
+    }
+}

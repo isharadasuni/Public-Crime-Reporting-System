@@ -1,0 +1,173 @@
+.crimeReport{
+    
+    display: flex;
+    width: 100%;
+    background-color: rgba(6, 19, 117, 0.13);
+
+    .crimeContainer{
+        flex:6;
+
+        
+        .alert {
+            flex:2;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+
+            .close{ 
+                background-color: transparent;
+                border-color: white;
+            }
+
+            &.alert-danger{
+                color: red;
+                background: rgba(233, 128, 128, 0.308);
+            }
+
+            &.alert-success{
+                color: rgb(1, 150, 68);
+                background: rgba(7, 168, 101, 0.233);
+            }
+
+        }
+
+
+        .topCrime, .bottomCrime{
+            box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+            background-color:  white;
+
+            .grid{
+                display: flex;
+            }
+
+            .postCard{
+                width:500px;
+                margin-left: 30px;
+                margin-top: 30px;
+               color: rgba(0, 0, 0, 0.842);
+               color: black;
+               font-size: 18px;
+
+            }
+            
+            .addNewReport {
+                width: 100%;
+                font-size: 24px;
+                color: gray;
+                margin-bottom: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color:  white;
+        }
+
+        form{
+
+            .radio{
+                display: flex;
+                font-size: 15px;
+
+                label{
+                    margin-left: 10px;
+                }
+
+                
+               
+            }
+
+        
+            .color{
+                color: rgb(6, 19, 117);
+                font-weight: bold;
+            }
+        
+
+            .predictionResult{
+                font-size: 15px;
+                font-style: italic;
+                color: rgb(184, 11, 11);
+                margin-bottom: 20px;
+
+                
+            }
+
+            .formInput{
+               
+                display: flex;
+                margin-bottom: 20px;
+                margin-left: 40px;
+                
+                
+           
+
+
+
+                label{
+                width: 150px;
+                display: flex;
+                align-items: center;
+                font-size:15px;
+                padding: 5px;
+                color: rgb(6, 19, 117);
+                font-weight: bold;
+                
+
+
+                }
+                input, textarea, select{
+                    width:300px;
+                    padding: 5px;
+                    border: none;
+                    border-bottom: 1px solid gray;
+                    position:relati;
+                    color: rgb(6, 19, 117);
+                
+                  
+                }
+
+
+                .error{
+                    color: rgba(255, 0, 0, 0.911);
+                    font-size: 12px;
+                    flex:auto;
+                    padding: 5px;
+                    
+                }
+
+
+                textarea{
+                    height: 100px;
+                    border: solid 1px;
+                    border-color: rgba(128, 128, 128, 0.808);
+                    
+                }
+            }
+            button{
+                width: 100px;
+                padding: 10px;
+                border: none;
+                background-color: rgb(6, 19, 117);
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                margin-top:10px;
+                border-radius: 5px;
+                margin-left: 290px;
+                margin-top: 40px;
+                
+
+            }
+        
+        }
+
+
+
+        }
+
+
+    }
+}

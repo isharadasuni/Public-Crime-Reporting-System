@@ -1,0 +1,159 @@
+.message {
+  display: flex;
+  width: 100%;
+  background-color: rgba(6, 19, 117, 0.13);
+
+  .messageContainer {
+    flex: 6;
+    width: auto;
+
+    .alert {
+      flex: 2;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+
+      &.alert-danger {
+        color: red;
+        background: rgba(233, 128, 128, 0.308);
+      }
+
+      &.alert-success {
+        color: rgb(1, 150, 68);
+        background: rgba(7, 168, 101, 0.233);
+      }
+
+      .close {
+        background-color: transparent;
+        border-color: white;
+      }
+    }
+
+    .topMessage {
+      box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      padding: 10px;
+      margin: 20px;
+      background-color: white;
+
+      .addNewReport {
+        font-size: 24px;
+        color: gray;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+
+
+    .bottomMessage {
+      box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      padding: 20px;
+      margin: 10px 20px;
+      background-color: white;
+      flex:2;
+
+      .formInput {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 40px;
+
+        label {
+          width: 150px;
+          display: flex;
+          align-items: center;
+          font-size: 15px;
+          padding: 5px;
+          color: rgb(6, 19, 117);
+          font-weight: bold;
+        }
+
+        input,
+        textarea,
+        select {
+          width: 300px;
+          padding: 5px;
+          border: none;
+          border-bottom: 1px solid gray;
+          color: rgb(6, 19, 117);
+        }
+
+        .error {
+          color: rgba(255, 0, 0, 0.911);
+          font-size: 12px;
+          padding: 5px;
+        }
+
+        textarea {
+          height: 100px;
+          border: solid 1px;
+          border-color: rgba(128, 128, 128, 0.808);
+        }
+      }
+
+      .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .postCard {
+          padding: 25px;
+          width: 100%;
+          background-color:  rgba(6, 19, 117, 0.13);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.2s ease-in-out;
+
+          &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+          }
+
+          .label {
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.6);
+          }
+
+          .divider {
+            margin: 10px 0;
+            background-color: rgba(0, 0, 0, 0.1);
+          }
+
+          
+        }
+        .downloadBtn {
+          background-color: rgb(6, 19, 117);
+          color: white;
+          padding: 8px;
+          border: none;
+          cursor: pointer;
+          border-radius: 4px;
+          margin-top: 10px;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: rgb(6, 19, 117);
+          }
+        }
+      }
+   
+
+      .subButton {
+      width: 100px;
+      padding: 10px;
+      border: none;
+      background-color: rgb(6, 19, 117);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-left: 290px;
+      margin-top: 40px;
+     
+    }
+
+  }
+  }
+}

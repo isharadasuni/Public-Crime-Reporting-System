@@ -1,0 +1,108 @@
+.news {
+    display: flex;
+    width: 100%;
+    background-color: rgba(6, 19, 117, 0.13);
+
+    .newsContainer {
+        flex: 6;
+
+
+
+        .alert {
+            flex: 2;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+    
+            .close {
+                background-color: transparent;
+                border-color: white;
+            }
+    
+            &.alert-danger {
+                color: red;
+                background: rgba(233, 128, 128, 0.308);
+            }
+    
+            &.alert-success {
+                color: rgb(1, 150, 68);
+                background: rgba(7, 168, 101, 0.233);
+            }
+    
+        }
+    
+
+
+
+
+        .topNews {
+            box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+            width: 1100px;
+            background-color: white;
+
+
+
+            .newsTitle {
+                width: 100%;
+                font-size: 24px;
+                color: gray;
+                margin-bottom: 10px;
+
+
+
+            }
+
+            .link {
+                text-decoration: none;
+                color: rgb(6, 19, 117);
+                font-size: 16px;
+                font-weight: 400;
+                border: 1px solid rgb(6, 19, 117);
+                padding: 5px;
+                border-radius: 5px;
+                cursor: pointer;
+                text-align: center;
+                width: 60px;
+                height: 23px;
+
+
+            }
+
+
+
+        }
+
+        .bottom {
+            box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+            background-color: white;
+           
+            .postCard{
+                width:500px;
+                margin-left: 300px;
+               color: rgba(0, 0, 0, 0.842);
+
+            }
+            
+            .creator{
+                display: flex;
+                font-size: 14px;
+            }
+
+           
+
+
+        }
+
+
+    }
+
+
+}

@@ -1,0 +1,96 @@
+.list{
+    display: flex;
+    width: 100%;
+
+    .listLocation{
+        flex: 6;
+        
+
+
+
+        .alert {
+            flex: 2;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+
+            .close {
+                background-color: transparent;
+                border-color: white;
+            }
+
+            &.alert-danger {
+                color: red;
+                background: rgba(233, 128, 128, 0.308);
+            }
+
+            &.alert-success {
+                color: rgb(1, 150, 68);
+                background: rgba(7, 168, 101, 0.233);
+            }
+
+        }
+
+
+
+
+
+
+        .addNew {
+            box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            padding: 10px;
+            width: 1100px;
+            font-size: 24px;
+            color: gray;
+            margin-bottom: 40px;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 20px;
+            margin-top: 20px;
+            background-color: white;
+
+        }
+
+
+     
+        .contentBox{
+          display: flex;
+            font-size: 20px;
+            
+
+            .formInput{
+                width: 40%;
+                margin-left: 10px;
+                margin-top: 10px;
+             
+                label{
+                display: flex;
+                align-items: center;
+                color: rgb(6, 19, 117);
+                gap: 10px;
+                font-weight: bold;
+                width: 150px;
+                font-size: 15px;
+                }
+            }
+
+
+            .submitButton {
+                margin-top: 40px;
+                margin-left: 10px;
+                margin-bottom: 30px;
+                width: 150px;
+                padding: 5px;
+                font-size: 14px;
+                text-align: center;
+                color: #fdfdfd;
+                background-color: rgb(6, 19, 117);
+                cursor: pointer;
+                border-radius: 5px;
+             }
+
+        }
+        
+    }
+}

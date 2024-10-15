@@ -1,0 +1,204 @@
+.list {
+    display: flex;
+    width: 100%;
+    background-color: rgba(6, 19, 117, 0.13);
+
+    .listContainer {
+        flex: 7;
+
+
+
+
+        .backContainer {
+           
+            height: 100%;
+
+
+
+
+
+
+            .charts {
+                margin-top: 40px;
+                margin-left: 250px;
+                width: 60%;
+                height: 50px;
+                background-color: white;
+                margin-bottom: 400px;
+            }
+
+
+
+            .part2 {
+               
+                margin-top: 40px;
+
+                .container {
+            
+                  
+                    margin-left: 20px;
+                    margin-bottom: 60px;
+
+
+                    .title {
+                        font-weight: 500;
+                        color: rgb(6, 19, 117);
+                        font-size: 20px;
+                       margin-left: 300px;
+                       font-weight: bold;
+                       text-align: center;
+                      
+                    }
+
+                    .map {
+                        display: flex;
+                        border: 1px solid #ccc;
+                        height:600px;
+                        align-items: center;
+                        margin-top: 20px;
+
+
+                    }
+
+
+                }
+
+
+                .amount {
+                    font-size: 30px;
+                    color: rgb(6, 19, 117);
+                }
+
+                .desc {
+                    font-weight: 300;
+                    font-size: 12px;
+                    color: gray;
+                    text-align: center;
+                    text-align: justify;
+
+                }
+
+            }
+
+
+
+            .mainContainer {
+
+                margin-right: 100px;
+                display: flex;
+                justify-content: space-between;
+
+
+
+
+
+                .part1 {
+                    background-color: rgba(255, 255, 255, 0.781);
+                    display: flex;
+                    justify-content: space-between;
+                    flex: 1;
+                    padding: 5px; 
+                    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    border-radius: 10px;
+                    margin-left: 100px;
+                    margin-bottom: 40px;
+                    margin-top: 20px;
+
+                    .topic {
+                        font-weight: bold;
+                        color: rgb(6, 19, 117);
+                        font-size: 18px;
+                    }
+
+
+
+
+                    .detailItem {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                    }
+
+                    .left,
+                    .right {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start; // Align items to start of column
+                        flex: 1;
+                        font-size: 14px;
+                        color: rgba(0, 0, 0, 0.815);
+
+                    }
+
+                    .right {
+                        align-items: flex-end; // Align items to end of column
+                        color: rgb(6, 19, 117);
+                    }
+
+                }
+
+            }
+
+
+            .comPart {
+                
+                .comChart {
+                    margin-top: 40px;
+                    margin-left: 60px;
+                    width: 90%;
+                    height: 600px; /* Adjust the height as needed */
+                    background-color: white;
+                    margin-bottom: 100px;
+
+                    
+                    padding: 10px;
+                    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                }
+            
+                .title {
+                    font-weight: 500;
+                    color: rgb(6, 19, 117);
+                    font-size: 20px;
+                    margin-left: 300px;
+                    font-weight: bold;
+                 
+                   
+                }
+            }
+
+
+            .partFeature{
+                display: flex;
+                margin-bottom: 30px;
+                .topRates{
+                    width: 50%;
+                    margin-top: 30px;
+                    margin-left: 10px;
+                    padding: 10px;
+                    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                
+                    .title {
+                        font-weight: 500;
+                        color: rgb(6, 19, 117);
+                        font-size: 20px;
+                        font-weight: bold;
+                     
+                       
+                    }
+                
+                }
+                .feature {
+                    margin-top: 30px;
+                    margin-left: 10px;
+            
+
+                }
+
+
+            }
+            
+            
+        }
+    }
+}

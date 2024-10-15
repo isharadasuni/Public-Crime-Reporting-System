@@ -1,0 +1,129 @@
+.sidebar {
+   width: 200px;
+    border-right: 0.5px solid rgb(223, 218, 218);
+    min-height: 100vh;
+    background-color: rgb(2, 9, 59);
+   
+
+    .top {
+        border-right: transparent;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+
+        .item {
+           
+            margin: 15px;
+            position: relative;
+
+        
+            .avatar {
+              
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                transform: translateX(50%);
+                object-fit: cover;
+            }
+
+            .profile{
+                color:white;
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: capitalize;
+                
+            }
+    
+
+        }
+       
+    }
+
+    hr {
+        height: 0;
+        border: 0.5px solid rgb(223, 218, 218);
+
+    }
+
+    .center {
+        padding-left: 10px;
+        ;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .title {
+                font-size: 10px;
+                font-weight: bold;
+                color: #999;
+                margin-top: 15px;
+                margin-bottom: 5px;
+
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+
+                &.active {
+                    background-color: rgba(6, 19, 117, 0.616); 
+                   
+                }
+
+                &:hover {
+                    background-color: rgb(6, 19, 117);
+                }
+
+
+                .icon {
+                    font-size: 18px;
+                    color: white;
+
+
+    
+                }
+
+               
+
+
+                span {
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: white;
+                }
+
+            }
+
+        }
+    }
+
+    .bottom {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        .colorOption {
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid rgb(3, 3, 5);
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1) {
+                background-color: whitesmoke;
+            }
+
+            &:nth-child(2) {
+                background-color: rgb(32, 32, 32);
+
+            }
+
+        }
+
+    }
+}
