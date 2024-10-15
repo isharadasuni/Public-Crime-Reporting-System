@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".HomeActivity"
+    android:background="@color/blue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:text="@string/heading"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            android:layout_marginBottom="40dp"/>
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView14"
+            android:orientation="horizontal"
+            android:layout_marginBottom="0dp">
+
+
+
+            <ImageView
+                app:srcCompat="@drawable/report"
+                android:id="@+id/button6"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="@string/Report"
+                android:textSize="20dp"
+                android:textColor="@color/blue"/>
+
+
+            <ImageView
+
+                app:srcCompat="@drawable/news"
+                android:id="@+id/newsBtn"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:text="@string/News"
+                android:backgroundTint="@color/white"
+                android:textSize="20dp"
+                android:textColor="@color/blue"/>
+
+
+
+
+        </LinearLayout>
+
+        <!-- New LinearLayout for Button 8/9 -->
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/line1"
+            android:backgroundTint="@color/white">
+
+
+            <ImageView
+
+                android:id="@+id/policeLocation"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/Location"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                app:srcCompat="@drawable/loc" />
+
+
+            <ImageView
+
+                app:srcCompat="@drawable/newpro"
+                android:id="@+id/profile"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="@string/Profile"
+                android:backgroundTint="@color/white"
+                android:textSize="20dp"
+                android:textColor="@color/blue"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <!-- New LinearLayout  -->
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/line2"
+            android:backgroundTint="@color/white">
+
+
+
+
+
+            <ImageView
+
+                app:srcCompat="@drawable/firen"
+                android:id="@+id/button11"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="@string/Fire"
+                android:backgroundTint="@color/white"
+                android:textSize="20dp"
+                android:textColor="@color/blue"/>
+
+
+            <ImageView
+                android:id="@+id/button12"
+                app:srcCompat="@drawable/fb"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="@string/emergency"
+                android:backgroundTint="@color/white"
+                android:textSize="20dp"
+                android:textColor="@color/blue"/>
+
+
+        </LinearLayout>
+
+        <!-- New LinearLayout  -->
+        <LinearLayout
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/line3"
+            android:backgroundTint="@color/white">
+
+
+<!--            <ImageView-->
+
+<!--                app:srcCompat="@drawable/history"-->
+<!--                android:id="@+id/history"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/Fire"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textColor="@color/blue"/>-->
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

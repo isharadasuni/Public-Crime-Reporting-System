@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957175099204",
+    "firebase_url": "https://sample-a8683-default-rtdb.firebaseio.com",
+    "project_id": "sample-a8683",
+    "storage_bucket": "sample-a8683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957175099204:android:26f2eaa643b93b7b5df111",
+        "android_client_info": {
+          "package_name": "com.example.crimereporter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957175099204-lpne6cps3smpo414vrs3mqcrd0h6ng2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIKxw024WI_jukHh7NDbrvVllXJzcc8cY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957175099204-lpne6cps3smpo414vrs3mqcrd0h6ng2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

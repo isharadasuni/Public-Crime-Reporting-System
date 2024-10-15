@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Login-->
+    <string name="app_name">Crime Reporter</string>
+    <string name="user_name">Username</string>
+    <string name="log_password">Password</string>
+    <string name="hint_user_name">Enter Username</string>
+    <string name="hint_log_password">Enter Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_reg">Sign Up</string>
+    <string name="title_activity_home">Home</string>
+    <string name="heading">Crime Reporter</string>
+    <string name="ForgetPass">Forget Password</string>
+
+    <!-- Registration-->
+    <string name="registration">Registration</string>
+    <string name="name">Full Name</string>
+    <string name="NIC">NIC</string>
+    <string name="Address">Address</string>
+    <string name="Phone">Phone Number</string>
+    <string name="Email">Email</string>
+    <string name="pass">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="btn_Register">Register</string>
+
+    <!-- OTP-->
+    <string name="verification">OTP Verification</string>
+    <string name="btn_resend">Resend</string>
+    <string name="btn_verify">verify</string>
+    <string name="resent">If you did not receive a code!</string>
+    <string name="description">Mobile verification has successfully done.</string>
+
+
+    <!-- Home page-->
+    <string name="Report">Report</string>
+    <string name="News">News</string>
+    <string name="Location">Police Station</string>
+    <string name="Profile">Profile</string>
+    <string name="emergency">Ambulance</string>
+    <string name="Fire">Fire &amp; rescue</string>
+    <string name="Feedback">Feedback</string>
+    <string name="LogOut">Log Out</string>
+
+    <!-- Crime Report-->
+    <string name="Crime">Crime Type</string>
+    <string name="dec">Description</string>
+    <string name="attach">Attachment</string>
+    <string name="AttachFile">Choose File</string>
+    <string name="police">Police Station</string>
+    <string name="date">Date</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="location">Select Location</string>
+
+
+</resources>
